@@ -1,0 +1,28 @@
+{
+    "name": "library-management/system",
+    "description": "Library Management System - PHP application for managing books, members, and loans",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Library Development Team",
+            "email": "admin@library.edu"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "twig/twig": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "classmap": [
+            "config/",
+            "models/"
+        ]
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
